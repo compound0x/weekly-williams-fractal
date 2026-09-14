@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Daily Williams Fractal 10 Scanner</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f5f7fa;color:#1f2937;max-width:1000px;margin:auto;padding:24px}
+h1{margin-bottom:6px} .sub{color:#6b7280;margin-top:0}
+.banner{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;margin:18px 0}
+.card{position:relative;background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:20px;margin:16px 0;box-shadow:0 3px 10px rgba(0,0,0,.04)}
+.rank{position:absolute;right:18px;top:18px;color:#6b7280;font-weight:700}
+.title-row{display:flex;align-items:center;gap:12px;padding-right:50px} h2{margin:0}
+.badge{font-size:12px;font-weight:700;border:1px solid #16a34a;border-radius:999px;padding:5px 9px}
+.summary{color:#4b5563;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:16px}
+.grid div{background:#f8fafc;border-radius:10px;padding:12px} .grid b{display:block;font-size:12px;color:#6b7280;margin-bottom:4px} .grid span{font-weight:700}
+.empty{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:25px;text-align:center;color:#6b7280}
+footer{color:#6b7280;font-size:12px;margin-top:24px}
+</style>
+</head>
+<body>
+<h1>Daily Williams Fractal 10 Scanner</h1>
+<p class='sub'>S&amp;P 500 daily scanner • bullish/down fractal • period 10 • maximum signal age 5 completed trading sessions</p>
+<div class='banner'>
+  <strong>Scan logic:</strong> only completed daily candles are used. A bullish Williams Fractal 10 is a daily low that is strictly lower than the lows of the 10 trading sessions before and after it. A signal remains valid for up to 5 completed trading sessions after the fractal is confirmed.
+  <br><br><strong>Last scan:</strong> 2026-09-14 09:56:04 UTC
+</div>
+
+        <div class='empty'>
+          No S&amp;P 500 stocks currently have a confirmed bullish Williams Fractal 10
+          within the latest 5 completed daily candles.
+        </div>
+        
+<footer>Automated daily scan. Data supplied by Yahoo Finance via yfinance. This dashboard is informational and not financial advice.</footer>
+</body>
+</html>
